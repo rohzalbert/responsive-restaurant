@@ -1,0 +1,313 @@
+body {
+  font-family: nunito;
+  background: #fdfffd;
+}
+.fixedCall {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0E1E11;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index: 99;
+}
+
+
+@media (max-width: 768px) {
+  .fixedCall {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+
+.heroSection {
+  background-image: url('./images/heroimg.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  color: #0E1E11;
+  text-align: center;
+  width: 100%;
+}
+
+
+.heroSection p {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.heroSection h1 {
+  font-weight: 600;
+  color: #0E1E11;
+}
+
+.heroSection button:hover {
+  background: #2b3b2e;
+}
+
+@media only screen and (max-width: 1640px) and (min-width: 1227px) {
+  .content{
+    margin-top: -6%;
+  }
+  .heroSection h1 {
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 10px;
+  }
+  .heroSection button {
+    width: 40%;
+    margin: auto;
+  }
+} 
+
+@media only screen and (max-width: 1226px) and (min-width: 992px) {
+  .content{
+    margin-top: -8%;
+  }
+  .heroSection h1 {
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 10px;
+  }
+  .heroSection button {
+    width: 40%;
+    margin: auto;
+  }
+} 
+
+@media only screen and (max-width: 991px) and (min-width: 638px) {
+  .content{
+    margin-top: -9%;
+  }
+  .heroSection h1 {
+    padding-top: -40%;
+    font-size: 36px;
+  }
+  .heroSection p {
+    font-size: 10px;
+  }
+  .heroSection button {
+    width: 25%;
+    margin: auto;
+    font-size: 18px;
+    padding: 4px 12px;
+  }
+} 
+
+@media only screen and (max-width: 637px) and (min-width: 576px) {
+  .content{
+    margin-top: -12%;
+  }
+  .heroSection h1 {
+    padding-top: -40%;
+    font-size: 36px;
+  }
+  .heroSection p {
+    font-size: 10px;
+  }
+  .heroSection button {
+    width: 28%;
+    margin: auto;
+    font-size: 18px;
+    padding: 4px 12px;
+  }
+} 
+
+@media only screen and (max-width: 575px) and (min-width: 446px) {
+  .content{
+    margin-top: -15%;
+  }
+  .heroSection h1 {
+    font-size: 24px;
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 10px;
+  }
+  .heroSection button {
+    width: 40%;
+    margin: auto;
+    font-size: 18px;
+    padding: 4px 12px;
+  }
+} 
+
+@media only screen and (max-width: 445px) and (min-width: 430px) {
+  .content{
+    margin-top: -21%;
+  }
+  .heroSection h1 {
+    font-size: 24px;
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 10px;
+  }
+  .heroSection button {
+    width: 40%;
+    margin: auto;
+    font-size: 16px;
+    padding: 4px 12px;
+  }
+} 
+
+@media only screen and (max-width: 430px) and (min-width: 378px) {
+  .content{
+    margin-top: -23%;
+  }
+  .heroSection h1 {
+    font-size: 24px;
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 8px;
+  }
+  .heroSection button {
+    width: 45%;
+    margin: auto;
+    font-size: 14px;
+    padding: 4px 12px;
+  }
+} 
+
+@media only screen and (max-width: 378px) and (min-width: 348px) {
+  .content{
+    margin-top: -24%;
+  }
+  .heroSection h1 {
+    font-size: 22px;
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 8px;
+  }
+  .heroSection button {
+    width: 55%;
+    margin: auto;
+    margin-top: -5%;
+    font-size: 14px;
+  }
+} 
+
+@media only screen and (max-width: 348px) and (min-width: 330px) {
+  .content{
+    margin-top: -25%;
+  }
+  .heroSection h1 {
+    font-size: 22px;
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 8px;
+  }
+  .heroSection button {
+    width: 55%;
+    margin: auto;
+    margin-top: -5%;
+    font-size: 14px;
+  }
+} 
+
+@media only screen and (max-width: 330px) and (min-width: 315px) {
+  .content{
+    margin-top: -30%;
+  }
+  .heroSection h1 {
+    font-size: 22px;
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 8px;
+  }
+  .heroSection button {
+    width: 55%;
+    margin: auto;
+    margin-top: -5%;
+    font-size: 14px;
+  }
+} 
+
+@media only screen and (max-width: 315px) and (min-width: 290px) {
+  .content{
+    margin-top: -36%;
+  }
+  .heroSection h1 {
+    font-size: 20px;
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 6px;
+  }
+  .heroSection button {
+    width: 55%;
+    margin: auto;
+    margin-top: -5%;
+    font-size: 14px;
+  }
+} 
+
+@media only screen and (max-width: 290px) and (min-width: 260px) {
+  .content{
+    margin-top: -43%;
+  }
+  .heroSection h1 {
+    font-size: 18px;
+    padding-top: -40%;
+  }
+  .heroSection p {
+    font-size: 5px;
+  }
+  .heroSection button {
+    width: 59%;
+    margin: auto;
+    margin-top: -5%;
+    font-size: 14px;
+  }
+} 
+
+
+
+/* MENU HIGHLIGHT */
+
+.menuList a {
+  text-decoration: none;
+  color: #0E1E11;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.menuList a:hover {
+  background-color: #2b3b2e;
+  border-radius: 10px;
+  color: #F1FDF1;
+}
+.menuList a:active {
+  color: #5D988C;
+}
+
+
+.bookTable button:hover {
+  background-color: #2b3b2e;
+  border-radius: 10px;
+  color: #F1FDF1;
+  border-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
